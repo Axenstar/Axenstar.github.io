@@ -1,0 +1,331 @@
+@font-face {
+	font-family: "Myriad Pro";
+	src: url(fonts/MyriadPro.ttf);
+}
+@font-face {
+	font-family: "Myriad Pro - Semibold";
+	src: url(fonts/MyriadPro-Semibold.otf);
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 425px) {
+  	.main {
+  		width: 100% !important;
+		padding: 0 !important;
+  	}
+  	header {
+  		height: auto !important;
+  	}
+  	.about-section, header {
+  		width: inherit;
+  		height: auto !important;
+  	}
+  	.main li {
+  		padding: 0 !important;
+  	}
+  	.block-heading {
+		padding: 0 !important;
+		width: 100% !important;
+  	}
+	.block-heading__h1 {
+		font-size: 26px !important;
+		width: 100% !important;
+		height: 20% !important;
+		line-height: 30px !important;
+		letter-spacing: 0px !important;
+		text-align: center;
+		padding-top: 20px !important;
+		padding-bottom: 20px !important;
+	}
+	.block-heading__menu {
+		width: 100% !important;
+		font-size: 20px !important;
+		display: flex !important;
+		justify-content: space-between !important;
+		padding-top: 20px !important;
+		padding-bottom: 20px !important;
+	}
+	.block-heading__menu-items {
+		padding: 0 !important;
+	}
+	.about-section__first-part {
+		flex-direction: column;
+	}
+	.about-section__text-wrapper p {
+		text-align: center;
+	}
+	.about-section__advantages {
+		flex-wrap: wrap;
+		width: 100%;
+		margin-top: 0 !important;
+	}
+	.about-section__advantage {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.about-section__heading-wrapper, .about-section__text-wrapper {
+		width: 100% !important;
+		justify-content: center;
+	}
+	.paragraph-heading, .paragraph-text {
+		font-size: 16px !important;
+		text-align: center !important;
+	}
+	.feautured-projects__projects-list {
+		width: 100% !important;
+		padding: 0;
+	}
+	.feautured-projects__slider {
+		justify-content: center;
+	}
+	.feautured-projects__slider img {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.strategic-process__chess-advantage {
+		width: 90% !important;
+		height: auto !important;
+	}
+}
+@media only screen 
+  and (min-device-width: 426px) 
+  and (max-device-width: 768px) {
+	.about-section__gamepad-block {
+		width: 57px;
+		height: 57px;
+		border: 2px solid #ffa800;
+		border-radius: 50%;
+		background-color: #e8e8e8;
+		display: grid;
+		justify-items: center;
+		align-items: center;
+		margin: auto;
+	}
+	.about-section__advantage {
+		width: 240px;
+		height: 200px;
+		text-align: center;
+	}
+	.about-section__h3 {
+		color: #000000;
+		font-family: "Myriad Pro";
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.about-section__paragraph {
+		color: #000000;
+		font-family: "Myriad Pro";
+		font-style: italic;
+		font-size: 10px;
+		font-weight: 400;
+	}
+	.about-section__advantage {
+		
+	}
+  }
+body, html {
+	padding: 0;
+	margin: 0;
+	background-color: grey;
+}
+header {
+	background-image: url(img/header-img.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 1198px;
+	height: 654px;
+	margin: auto;
+}
+.block-heading {
+	width: 90%;
+	padding-top: 70px;
+	padding-left: 46px;
+}
+.block-heading__h1 {
+	width: 413px;
+	height: 89px;
+	color: #ffffff;
+	font-family: "Myriad Pro";
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: -3px;
+	margin: 0;
+	padding-bottom: 60px;
+}
+.h1__first-letter {
+	color: #ffc600;
+	letter-spacing: -3px;
+}
+.block-heading__menu {
+	color: #ffc600;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding: 0;
+}
+.block-heading__menu-items {
+	list-style: none;
+	padding-right: 38px;
+}
+.about-section {
+	width: 1198px;
+	height: 667px;
+	margin: auto;
+	background-color: white;
+}
+.about-section__first-part {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.about-section__heading-wrapper, .about-section__text-wrapper {
+	width: 50%;
+}
+.about-section__heading-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+#big-letter {
+	font-size: 50px;
+}
+.grey-text {
+	width: 92px;
+	height: 35px;
+	color: #717171;
+	font-family: "Myriad Pro - Semibold";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: bold;
+}
+.sublime-text {
+	width: 279px;
+	height: 58px;
+	color: #000000;
+	font-family: "Myriad Pro - Semibold";
+	font-size: 80px;
+	font-weight: 400;
+}
+.paragraph-heading {
+	font-style: italic;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	font-weight: 400;
+}
+.paragraph-text {
+	color: #595959;
+	font-size: 14px;
+}
+.about-section__advantages {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 72px;
+}
+.about-section__gamepad-block {
+	width: 57px;
+	height: 57px;
+	border: 2px solid #ffa800;
+	border-radius: 50%;
+	background-color: #e8e8e8;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	margin: auto;
+}
+.about-section__advantage {
+	width: 240px;
+	height: 200px;
+	text-align: center;
+}
+.about-section__h3 {
+	color: #000000;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	font-weight: 400;
+}
+.about-section__paragraph {
+	color: #000000;
+	font-family: "Myriad Pro";
+	font-style: italic;
+	font-size: 10px;
+	font-weight: 400;
+}
+.feautured-projects, .strategic-process {
+	width: 1198px;
+	margin: auto;
+	background-color: white;
+}
+.universal-first-letter {
+	color: #ffc600;
+	font-size: 50px;
+}
+.universal-second-black-letter {
+	font-size: 50px;
+}
+.feautured-projects__heading, .strategic-process__heading {
+	margin-top: 0;
+	color: #000000;
+	font-family: "Myriad Pro - Semibold";
+	font-size: 30px;
+	font-weight: 400;
+	margin-left: 5%;
+}
+.feautured-projects__projects-list {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	color: #101010;
+	font-family: "Myriad Pro - Semibold";
+	font-size: 9px;
+	font-weight: 400;
+	width: 32%;
+	justify-content: space-around;
+}
+.feautured-projects__slider {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.strategic-process {
+	padding-top: 66px;
+}
+.strategic-process__text {
+	width: 90%;
+	margin: auto;
+}
+.strategic-process__first-section {
+	margin-bottom: 43px;
+}
+.strategic-process__second-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.strategic-process__chess-advantage {
+	width: 35%;
+	height: 280px;
+}
+.strategic-process__chess-advantage img {
+	width: 100%;
+}
+.strategic-process__first-letter {
+	font-size: 50px;
+}
